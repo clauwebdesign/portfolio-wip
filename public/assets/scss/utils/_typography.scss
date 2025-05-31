@@ -14,23 +14,12 @@ $font-url-worksans: 'https://fonts.googleapis.com/css2?family=Work+Sans:wght@100
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Work_Sans';
-    src: url('../../fonts/WorkSans-Regular.woff2') format('woff2'),
-    url('../../fonts/gallerymodern-webfont.woff') format('woff'),
-    url('../../fonts/WorkSans-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-
 // font family
 $font-family: (
     'ff': (
-        'body': "'Work_Sans', sans-serif",
+        'body': "'gallery_modernregular', sans-serif",
         'heading': "'Syne', sans-serif",
-        'p': "'Work_Sans', sans-serif",
+        'p': "'Syne', sans-serif",
         'syne': "'Syne', sans-serif",
         'gallery': "'gallery_modernregular', sans-serif",
         'shoulders': "'Big Shoulders Display', cursive",

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import {
+  Work_Sans,
   Syne,
   Aladin,
   Big_Shoulders_Display,
@@ -40,26 +41,31 @@ const syne_body = Syne({
   subsets: ["latin"],
   variable: "--tp-ff-body",
 });
+
 const syne_heading = Syne({
   weight: ["400", "500", "600", "700", "800"],
   subsets: ["latin"],
   variable: "--tp-ff-heading",
 });
-const syne_p = Syne({
+
+const work_sans_p = Work_Sans({
   weight: ["400", "500", "600", "700", "800"],
   subsets: ["latin"],
   variable: "--tp-ff-p",
 });
+
 const syne = Syne({
   weight: ["400", "500", "600", "700", "800"],
   subsets: ["latin"],
   variable: "--tp-ff-syne",
 });
+
 const big_shoulders = Big_Shoulders_Display({
   weight: ["400", "500", "600", "700", "800"],
   subsets: ["latin"],
   variable: "--tp-ff-shoulders",
 });
+
 const marcellus = Marcellus({
   weight: ["400"],
   subsets: ["latin"],
@@ -81,7 +87,7 @@ export default function RootLayout({
       <body
         id="body"
         suppressHydrationWarning={true}
-        className={`${gellery.variable} ${aladin.variable} ${syne_body.variable} ${syne_heading.variable} ${syne_p.variable} ${syne.variable} ${big_shoulders.variable} ${marcellus.variable}`}
+        className={`${gellery.variable} ${aladin.variable} ${syne_body.variable} ${syne_heading.variable} ${work_sans_p.variable} ${syne.variable} ${big_shoulders.variable} ${marcellus.variable}`}
       >
         <ThemeProvider defaultTheme="light">{children}</ThemeProvider>
       </body>
