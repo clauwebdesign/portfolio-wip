@@ -9,12 +9,13 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother, SplitText);
 // internal imports
 import Wrapper from "@/layouts/wrapper";
 import HeaderEleven from "@/layouts/headers/header-eleven";
-import PortfolioDetailsThreeArea from "@/components/portfolio/details/portfolio-details-3-area";
+import PortfolioDetailsAciArea from "@/components/portfolio/details/portfolio-details-aci-area";
 import FooterTwo from "@/layouts/footers/footer-two";
 // animation
 import { charAnimation, titleAnimation } from "@/utils/title-animation";
+import PortfolioDetailsPachamamaArea from "@/components/portfolio/details/portfolio-details-pachamama-area";
 
-const PortfolioDetailsThreeMain = () => {
+const PortfolioDetailsPachamamaMain = () => {
   useScrollSmooth();
 
   useGSAP(() => {
@@ -35,7 +36,7 @@ const PortfolioDetailsThreeMain = () => {
         <div id="smooth-content">
           <main>
             {/* portfolio details area */}
-            <PortfolioDetailsThreeArea />
+            <PortfolioDetailsPachamamaArea />
             {/* portfolio details area */}
           </main>
 
@@ -48,4 +49,4 @@ const PortfolioDetailsThreeMain = () => {
   );
 };
 
-export default PortfolioDetailsThreeMain;
+export default PortfolioDetailsPachamamaMain;

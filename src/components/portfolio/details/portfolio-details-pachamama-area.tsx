@@ -61,7 +61,7 @@ const slider_setting:SwiperOptions = {
   },
 }
 
-export default function PortfolioDetailsThreeArea() {
+export default function PortfolioDetailsPachamamaArea() {
   const scrollTo = () => {
     scroller.scrollTo('xyz', {
       duration: 800,
@@ -77,7 +77,7 @@ export default function PortfolioDetailsThreeArea() {
             <div className="row">
                 <div className="col-xl-12">
                   <div className="tp-project-details-3-title-box">
-                      <h4 className="sv-hero-title mb-50 tp-char-animation">AWAQ Campus Internship</h4>
+                      <h4 className="sv-hero-title mb-50 tp-char-animation">Pachamama Area...</h4>
                   </div>
                 </div>
             </div>

@@ -1,42 +1,50 @@
 import React from "react";
-import Image from "next/image";
+import Image, { type StaticImageData } from "next/image";
 import LineTextFour from "../line-text/line-text-4";
 import { UpArrow } from "../svg";
 import Link from "next/link";
 // images
-import p_img_1 from "@/assets/img/portfolio/home/aci.jpg";
-import p_img_2 from "@/assets/img/portfolio/home/pachamama.jpg";
-import p_img_3 from "@/assets/img/portfolio/home/elmiron.jpg";
-import p_img_4 from "@/assets/img/portfolio/home/bearing.jpg";
+import aci_img from "@/assets/img/portfolio/home/aci.jpg";
+import pachamama_img from "@/assets/img/portfolio/home/pachamama.jpg";
+import elmiron_img from "@/assets/img/portfolio/home/elmiron.jpg";
+import bearing_img from "@/assets/img/portfolio/home/bearing.jpg";
 
-const project_data = [
+interface Project {
+  id: number
+  link: string
+  img: StaticImageData | string
+  title?: string
+  category?: string
+  year?: number
+  openNewTag?: boolean
+}
+
+const project_data: Project[] = [
   {
     id: 1,
-    title: "",
     category: "",
-    img: p_img_1,
-    // year: 2024,
+    link: "/portfolio-details-aci",
+    img: aci_img,
   },
   {
     id: 2,
-    title: "Petit Navire",
     category: "Branding",
-    img: p_img_2,
-    year: 2024,
+    link: "/portfolio-details-pachamama",
+    img: pachamama_img,
   },
   {
     id: 3,
-    title: "Big Dream",
     category: "Branding",
-    img: p_img_3,
-    year: 2024,
+    link: "https://www.orthoelmiron.com/",
+    openNewTag: true,
+    img: elmiron_img,
   },
   {
     id: 4,
-    title: "The Stage",
     category: "Branding",
-    img: p_img_4,
-    year: 2024,
+    link: "https://bearingagro.com/",
+    openNewTag: true,
+    img: bearing_img,
   },
 ];
 
@@ -66,7 +74,7 @@ export default function ProjectFive({ style_2 = false }: IProps) {
                 className="tp-project-5-2-thumb fix mb-140 p-relative not-hide-cursor"
                 data-cursor="View<br>Demo"
               >
-                <Link className="cursor-hide" href="/portfolio-details-1">
+                <Link className="cursor-hide" href={item.link} {...(item.openNewTag ? {target: "_blank"} : {})}>
                   <span className="tp_img_reveal">
                     <div className="tp_img_reveal">
                       <Image
@@ -80,8 +88,8 @@ export default function ProjectFive({ style_2 = false }: IProps) {
                     <span>{item.category}</span>
                   </div>
                   <div className="tp-project-5-2-content tp_fade_anim">
-                    <span className="tp-project-5-2-meta">{item.year}</span>
-                    <h4 className="tp-project-5-2-title-sm">{item.title}</h4>
+                    { item.year &&  <span className="tp-project-5-2-meta">{item.year}</span> }
+                    { item.title && <h4 className="tp-project-5-2-title-sm">{item.title}</h4> }
                   </div>
                 </Link>
               </div>

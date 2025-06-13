@@ -114,7 +114,7 @@ const menu_data:IMenuDT[] = [
               { title: 'Video', link: '/portfolio-details-video' },
               { title: 'CUSTOM LIGHT', link: '/portfolio-custom-light' },
               { title: 'Gallery', link: '/portfolio-showcase-details' },
-              { title: 'Mockups', link: '/portfolio-details-3' },
+              { title: 'Mockups', link: '/portfolio-details-aci' },
             ]
           },
         ]
@@ -232,7 +232,7 @@ export const mobile_menu_data:{
       { title: 'Video', link: '/portfolio-details-video' },
       { title: 'CUSTOM LIGHT', link: '/portfolio-custom-light' },
       { title: 'Gallery', link: '/portfolio-showcase-details' },
-      { title: 'Mockups', link: '/portfolio-details-3' },
+      { title: 'Mockups', link: '/portfolio-details-aci' },
     ]
   },
   {
