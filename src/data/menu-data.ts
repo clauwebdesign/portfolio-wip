@@ -23,6 +23,17 @@ const menu_data:IMenuDT[] = [
   },
   {
     id: 2,
+    title: 'Work',
+    link: '/',
+    home_menus: [
+      { title: 'AWAQ CAMPUS INTERNSHIP', link: '/portfolio-details-aci', img: '/assets/img/portfolio/home/aci.jpg' },
+      { title: 'PACHAMAMA', link: '/portfolio-details-pachamama', img: '/assets/img/portfolio/home/pachamama.jpg' },
+      { title: 'ELMIRON', link: 'https://www.orthoelmiron.com/', openNewTab: true, img: '/assets/img/portfolio/home/elmiron.jpg' },
+      { title: 'BEARING AGRO', link: 'https://bearingagro.com/', openNewTab: true, img: '/assets/img/portfolio/home/bearing.jpg' },
+    ]
+  },
+  {
+    id: 3,
     title: 'Pages',
     link: '#',
     pages_mega_menu: {
@@ -59,7 +70,7 @@ const menu_data:IMenuDT[] = [
     }
   },
   {
-    id: 3,
+    id: 4,
     title: 'Portfolio',
     link: '/portfolio-standard',
     portfolio_mega_menus: {
@@ -122,7 +133,7 @@ const menu_data:IMenuDT[] = [
     }
   },
   {
-    id: 4,
+    id: 5,
     title: 'Blog',
     link: '/blog-modern',
     dropdown_menus: [
@@ -134,7 +145,7 @@ const menu_data:IMenuDT[] = [
     ]
   },
   {
-    id: 5,
+    id: 6,
     title: 'Contact',
     link: '/contact',
     dropdown_menus:[

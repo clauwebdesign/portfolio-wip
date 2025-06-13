@@ -16,7 +16,7 @@ interface Project {
   title?: string
   category?: string
   year?: number
-  openNewTag?: boolean
+  openNewTab?: boolean
 }
 
 const project_data: Project[] = [
@@ -36,14 +36,14 @@ const project_data: Project[] = [
     id: 3,
     category: "Branding",
     link: "https://www.orthoelmiron.com/",
-    openNewTag: true,
+    openNewTab: true,
     img: elmiron_img,
   },
   {
     id: 4,
     category: "Branding",
     link: "https://bearingagro.com/",
-    openNewTag: true,
+    openNewTab: true,
     img: bearing_img,
   },
 ];
@@ -74,7 +74,7 @@ export default function ProjectFive({ style_2 = false }: IProps) {
                 className="tp-project-5-2-thumb fix mb-140 p-relative not-hide-cursor"
                 data-cursor="View<br>Demo"
               >
-                <Link className="cursor-hide" href={item.link} {...(item.openNewTag ? {target: "_blank"} : {})}>
+                <Link className="cursor-hide" href={item.link} {...(item.openNewTab ? {target: "_blank"} : {})}>
                   <span className="tp_img_reveal">
                     <div className="tp_img_reveal">
                       <Image

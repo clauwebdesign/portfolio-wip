@@ -19,7 +19,7 @@ const HeaderMenus = () => {
                       <div key={i} className="col homemenu">
                         <div className="homemenu-thumb-wrap mb-20">
                           <div className="homemenu-thumb fix">
-                            <Link href={home_menu.link}>
+                            <Link href={home_menu.link} {...(home_menu.openNewTab ? {target: "_blank"} : {})}>
                               <Image src={home_menu.img} alt="home-img" width={251} height={235} 
                               style={imgStyle}/>
                             </Link>

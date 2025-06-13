@@ -6,6 +6,7 @@ export interface IMenuDT {
     title: string;
     link: string;
     img: string;
+    openNewTab?: boolean
   }[];
   pages_mega_menu?: {
     first: {
