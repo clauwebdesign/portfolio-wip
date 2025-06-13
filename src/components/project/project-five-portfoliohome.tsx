@@ -4,20 +4,18 @@ import LineTextFour from "../line-text/line-text-4";
 import { UpArrow } from "../svg";
 import Link from "next/link";
 // images
-import p_img_1 from "@/assets/img/home-05/project/project-4.jpg";
-import p_img_2 from "@/assets/img/home-05/project/project-5.jpg";
-import p_img_3 from "@/assets/img/home-05/project/project-6.jpg";
-import p_img_4 from "@/assets/img/home-05/project/project-7.jpg";
-import p_img_5 from "@/assets/img/home-05/project/project-8.jpg";
-import p_img_6 from "@/assets/img/home-05/project/project-9.jpg";
+import p_img_1 from "@/assets/img/portfolio/home/aci.jpg";
+import p_img_2 from "@/assets/img/portfolio/home/pachamama.jpg";
+import p_img_3 from "@/assets/img/portfolio/home/elmiron.jpg";
+import p_img_4 from "@/assets/img/portfolio/home/bearing.jpg";
 
 const project_data = [
   {
     id: 1,
-    title: "Awaq Campus Internship",
-    category: "Website Design",
+    title: "",
+    category: "",
     img: p_img_1,
-    year: 2024,
+    // year: 2024,
   },
   {
     id: 2,
@@ -38,20 +36,6 @@ const project_data = [
     title: "The Stage",
     category: "Branding",
     img: p_img_4,
-    year: 2024,
-  },
-  {
-    id: 5,
-    title: "Branding",
-    category: "Big Dream",
-    img: p_img_5,
-    year: 2024,
-  },
-  {
-    id: 6,
-    title: "Sed Lectus",
-    category: "Concept",
-    img: p_img_6,
     year: 2024,
   },
 ];

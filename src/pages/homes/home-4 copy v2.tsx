@@ -9,7 +9,7 @@ gsap.registerPlugin(useGSAP, ScrollTrigger, ScrollSmoother, SplitText);
 // internal imports
 import Wrapper from "@/layouts/wrapper";
 import HeaderOne from "@/layouts/headers/header-one";
-import HeroBannerOne from "@/components/hero-banner/hero-banner-one-portfolio";
+import HeroBannerOne from "@/components/hero-banner/hero-banner-one";
 import HeroBannerFour from "@/components/hero-banner/hero-banner-four";
 import GalleryOne from "@/components/gallery/gallery-one";
 
@@ -57,7 +57,9 @@ const HomeFourMain = () => {
              <HeroBannerOne />
             {/* hero area end */}
 
-      
+            {/* hero area start */}
+            <HeroBannerFour />
+            {/* hero area end */}
 
 
             {/* gallery area start */}
@@ -78,7 +80,7 @@ const HomeFourMain = () => {
                                 <div className="tm-hero-content">
                                   <span className="tm-hero-subtitle">Portfolio</span>
                                   <h4 className="tm-hero-title tp-char-animation">
-                                   Relevant Projects
+                                    Some of my projects
                                   </h4>
                                 </div>
                                 <div className="tm-hero-text">

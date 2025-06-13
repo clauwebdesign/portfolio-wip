@@ -49,7 +49,7 @@ const syne_heading = Syne({
 });
 
 const work_sans_p = Work_Sans({
-  weight: ["400", "500", "600", "700", "800"],
+  weight: ["300"],
   subsets: ["latin"],
   variable: "--tp-ff-p",
 });

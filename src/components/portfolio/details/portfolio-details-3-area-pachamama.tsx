@@ -21,7 +21,6 @@ import full_image_3 from '@/assets/img/portfolio/aci/home.jpg';
 import full_image_4 from '@/assets/img/portfolio/aci/wireframes.jpg';
 import full_image_5 from '@/assets/img/portfolio/aci/wireframes2.jpg';
 import full_image_6 from '@/assets/img/portfolio/aci/solution3.jpg';
-import full_image_7 from '@/assets/img/portfolio/aci/arquitectura.jpg';
 
 import port_img_1 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-3.jpg';
 import port_img_2 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-4.jpg';
@@ -77,7 +76,7 @@ export default function PortfolioDetailsThreeArea() {
             <div className="row">
                 <div className="col-xl-12">
                   <div className="tp-project-details-3-title-box">
-                      <h4 className="sv-hero-title mb-50 tp-char-animation">AWAQ Campus Internship</h4>
+                      <h4 className="sv-hero-title mb-50 tp-char-animation">Pachamama</h4>
                   </div>
                 </div>
             </div>
@@ -275,145 +274,17 @@ export default function PortfolioDetailsThreeArea() {
         </div>
     </div>
     {/* images thumb */}
-    
 
      {/* hero area start */}
         {/* <HeroBannerThree /> */}
     {/* hero area end */}
 
+      
 
-      {/* Problem area */}
-      {/* <div className="showcase-details-2-area pb-50">
-        <div className="container">
-          <div className="row tp-brand-brd-top pt-50">
-              <div className="col-xl-8">
-                <div className="showcase-details-2-section-box">
-                    <h4 className="project-details-1-title tp-char-animation">The MVP</h4>
-                </div>
-              </div>
-          </div>
-          <div className="row">
-              <div className="col-xl-12">
-                <div className="showcase-details-2-section-left">
-                    <span className="ab-inner-subtitle mb-25">
-                      <Leaf/>
-                      Defining the MVP
-                    </span>
-                </div>
-              </div>
-              <div className="col-xl-12">
-                <div className="showcase-details-2-content-right tp_title_anim">
-                    <p className="pb-25">As part of the Awaq Campus Internship project, I collaborated closely with product owner, developers and stakeholders to define the MVP. Key features:</p>
-                    <p className="pb-25">User Registration. Users could easily create an account.</p>
-                      
-                </div>
-                
-              </div>
-          </div>
-        </div>
-    </div> */}
-    {/* Problem area */}
-
-
-     {/* MVP area */}
-     <div className="pd-visual-content-area pb-70">
-          <div className="container">
-              <div className="row tp-brand-brd-top pt-50">
-              {/* <div className="showcase-details-2-section-left">
-                    <span className="ab-inner-subtitle mb-25">
-                      <Leaf/>
-                      test
-                    </span>
-                </div> */}
-                <div className="col-xl-8">
-                    <div className="pd-visual-content-left">
-                      <div className="">
-                          {/* <span className="pd-visual-subtitle tp_fade_bottom">01</span> */}
-                          {/* <h4 className="project-details-1-title fs-100 fw-700 tp-char-animation">The MVP</h4> */}
-                          <h4 className="project-details-1-title tp-char-animation">Defining the MVP</h4>
-                      </div>
-                    </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-xl-12">
-                    {/* <div className="pd-visual-left-text">
-                      <span className="tp-char-animation">Visually match Elena personal style</span>
-                    </div> */}
-                     {/* <div className="showcase-details-2-section-left">
-                          <span className="ab-inner-subtitle mb-25">
-                           <Leaf/>
-                          Defining the key features
-                          </span>
-                      </div> */}
-                </div>
-                <div className="col-xl-12">
-                    <div className="pd-visual-right-content">
-                      <p className="tp_title_anim">As part of the Awaq Campus Internship project, I collaborated closely with product owner, developers and stakeholders to define the MVP. Key features included:</p>
-                      <div className="pd-visual-right-list">
-                          <ul className="tp_fade_bottom">
-                            <li>USER REGISTRATION</li>
-                            <li>INTERACTIVE RESERVATIONS</li>
-                            <li>PAYMENT INTEGRATION</li>
-                            <li>USER DASHBOARD</li>
-                            <li>CALL SCHEDULING</li>
-                            <li>ADMIN DASHBOARD</li>
-                          </ul>
-                      </div>
-                    </div>
-                </div>
-              </div>
-           
-          </div>
-        </div>
-      {/* MVP area */}
-
-        {/* HOMEPAGE area */}
-    <div className="showcase-details-2-area">
-        <div className="container">
-          <div className="row tp-brand-brd-top pt-50">
-              <div className="col-xl-8">
-                <div className="showcase-details-2-section-box">
-                    <h4 className="project-details-1-title tp-char-animation">Information Architecture</h4>
-                </div>
-              </div>
-          </div>
-          <div className="row">
-              <div className="col-xl-3">
-                <div className="showcase-details-2-section-left">
-                    <span className="ab-inner-subtitle mb-25">
-                      <Leaf/>
-                      Designed to Make an Impact
-                    </span>
-                </div>
-              </div>
-              <div className="col-xl-9">
-                <div className="showcase-details-2-content-right tp_title_anim">
-                    <p className="pb-25">The AWAQ Campus Internship homepage was a central part of the design process, developed through a collaborative and iterative approach. As the project progressed, the client refined their vision and introduced new priorities. It was designed to clearly share the program’s mission, attract users..</p>
-                </div>
-              </div>
-          </div>
-        </div>
-    </div>
-    {/* HOMEPAGE area */}
-     {/* images thumb */}
-     <div className="tp-project-details-3-thumb">
-        <div className="container">
-          <div className="row">
-              <div className="col-xl-12">
-                <div className="tp-project-details-3-thumb-box">
-                    <Image className="w-100" src={full_image_7} alt="port-img" style={{height:'auto'}}/>
-                </div>
-              </div>
-          </div>
-        </div>
-    </div>
-    {/* images thumb */}
-    
          {/* Wireframes area */}
     <div className="showcase-details-2-area">
         <div className="container">
-          <div className="row tp-brand-brd-top pt-50">
+          <div className="row">
               <div className="col-xl-8">
                 <div className="showcase-details-2-section-box">
                     <h4 className="project-details-1-title tp-char-animation">Wireframing</h4>
