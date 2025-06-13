@@ -4,7 +4,7 @@ import PortfolioDetailsAciMain from "@/pages/portfolio/details/portfolio-details
 
 
 export const metadata: Metadata = {
-  title: "Liko - Portfolio Details 3 page",
+  title: "Details | ACI",
 };
 
 const PortfolioDetailsAciPage = () => {

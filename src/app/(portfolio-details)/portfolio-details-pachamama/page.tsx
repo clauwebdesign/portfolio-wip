@@ -4,7 +4,7 @@ import PortfolioDetailsPachamamaMain from "@/pages/portfolio/details/portfolio-d
 
 
 export const metadata: Metadata = {
-  title: "Liko - Portfolio Details 3 page",
+  title: "Details | Pachamama",
 };
 
 const PortfolioDetailsPachamamaPage = () => {
