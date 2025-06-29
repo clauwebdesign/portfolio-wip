@@ -9,19 +9,22 @@ import { Leaf, ScrollDownTwo,UpArrowFour} from '@/components/svg';
 
 
 import HeroBannerThree from "@/components/hero-banner/hero-banner-three-aci";
-import ServiceACI from "@/components/service/service-aci";
+import ServicePachamama from "@/components/service/service-pachamama";
 import ProjectSixHomepage from "@/components/project/project-six-homepage";
 
 
 
 // images
-import full_image from '@/assets/img/portfolio/aci/heroaci.jpg';
+import full_image from '@/assets/img/portfolio/pachamama/Pachamama-home.jpg';
 import full_image_2 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-2.jpg';
 import full_image_3 from '@/assets/img/portfolio/aci/home.jpg';
-import full_image_4 from '@/assets/img/portfolio/aci/wireframes.jpg';
-import full_image_5 from '@/assets/img/portfolio/aci/wireframes2.jpg';
-import full_image_6 from '@/assets/img/portfolio/aci/solution3.jpg';
-import full_image_7 from '@/assets/img/portfolio/aci/arquitectura.jpg';
+import wireframes1 from '@/assets/img/portfolio/pachamama/wireframes1.jpg';
+import wireframes2 from '@/assets/img/portfolio/pachamama/wireframes2.jpg';
+import full_image_6 from '@/assets/img/portfolio/pachamama/solution.jpg';
+import site_map from '@/assets/img/portfolio/pachamama/arquitectura.jpg';
+import full_image_users from '@/assets/img/portfolio/pachamama/user_persona.jpg';
+import prototype1 from '@/assets/img/portfolio/pachamama/app1.jpg';
+import prototype2 from '@/assets/img/portfolio/pachamama/app2.jpg';
 
 import port_img_1 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-3.jpg';
 import port_img_2 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-4.jpg';
@@ -77,7 +80,7 @@ export default function PortfolioDetailsPachamamaArea() {
             <div className="row">
                 <div className="col-xl-12">
                   <div className="tp-project-details-3-title-box">
-                      <h4 className="sv-hero-title mb-50 tp-char-animation">Pachamama Area...</h4>
+                      <h4 className="sv-hero-title mb-50 tp-char-animation">Pachamama</h4>
                   </div>
                 </div>
             </div>
@@ -112,24 +115,24 @@ export default function PortfolioDetailsPachamamaArea() {
                        <div className="project-details-1-title-box pb-50">
                             <span className="project-details-1-subtitle"><i>01</i>Introduction</span>
                                 <h4 className="project-details-1-title">Project Overview</h4>
-                                <p>Awaq ONGD is developing the Awaq Campus Internship website to offer biomonitoring internships and tourism experiences across Latin America. By October 2023, UX research and a brand manual were in place.</p>
-                                <p>The goal of this project was to design and deliver an intuitive and fully functional MVP for Awaq Campus Internship, enabling students to reserve and manage internship experiences in biological stations across Latin America through an engaging online platform.</p>
+                                <p>Pachamama is a mobile app designed to connect local residents with local organic food producers in Uruguay. It makes it simple to find and buy fresh, healthy food directly from small farmers, without going through intermediaries.</p>
+                                <p>This project was developed as part of a UX/UI Design course, with the goal of designing an easy-to-use and engaging app using design tools and a user-focused approach.</p>
                         </div>
                       </div>
                       <div className="col-xl-6">
                           <div className="project-details-1-info-wrap">
                               <div className="project-details-1-info">
                                   <span>Client</span>
-                                      <h4>AWAQ ONGD</h4>
+                                      <h4>UX/UI Design Course (Course Project)</h4>
                               </div>
                             <div className="project-details-1-info">
                                   <span>Dates</span>
-                                        <h4>2023-2025</h4>
+                                        <h4>Dec 2020 - Jan 2021</h4>
                             </div>
                             <div className="project-details-1-info">
                                   <span>Role</span>
                                       <h4>UI / UX Designer</h4>
-                                      <h4 className="pt-10">(Interaction, Visual design, Prototyping & Testing)</h4>
+                                      <h4 className="pt-10">(UX research, interaction design, visual design, prototyping & testing)</h4>
                             </div>                   
                           </div>
                       </div>
@@ -141,42 +144,13 @@ export default function PortfolioDetailsPachamamaArea() {
                   </div>
                 </div>
             </div>
-            
-            {/* <div className="row">
-                <div className="col-xl-3">
-                  <div className="showcase-details-2-section-left">
-                     
-                        <h4 className="blog-details-left-titletp-char-animation tp-menu-text">Project Overview</h4>
-                  </div>
-                </div>
-                <div className="col-xl-9">
-                  <div className="showcase-details-2-content-right">
-                      <p className="pb-25 ">Awaq ONGD began working on the creation of Awaq Campus Internship website, a platform offering hands-on internship and tourism experiences focused on biomonitoring in biological stations across Latin America. </p>
-                      <p>The general goal was to design the Minimum Viable Product (MVP) from scratch, using research insights, the information and main features requested by the client and following the brand guidelines to create a user-friendly, engaging, and consistent platform.</p>
-                  </div>
-                </div>
-            </div> */}
-
-            {/* <div className="row">
-                <div className="col-xl-3">
-                  <div className="showcase-details-2-section-left">
-                  <h4 className="blog-details-left-title tp-char-animation tp-menu-text">Background</h4>
-                  </div>
-                </div>
-                <div className="col-xl-9">
-                  <div className="showcase-details-2-content-right">
-                      <p className="pb-25 ">I joined the Awaq Campus Internship project as the main designer during the MVP phase, when the initial UX research had already been completed and a brand manual was in place. I was responsible for the entire UI design and prototyping process, ensuring that the experience was user-friendly, engaging, and aligned with the brand identity. I worked alongside developers and stakeholders to bring the platform to life.
-                        </p> 
-                      <p>I grew significantly throughout this project, both in my design skills and in collaborating within a cross-functional team. Some of the key achievements during this time include:</p>
-                  </div>  
-                </div>
-            </div>     */}
+              
           </div>
       </div>
       {/* details area */}
 
       {/* Background area */}
-    <div className="showcase-details-2-area pb-50">
+    {/* <div className="showcase-details-2-area pb-50">
         <div className="container">
           <div className="row tp-brand-brd-top pt-50">
               <div className="col-xl-8">
@@ -196,12 +170,12 @@ export default function PortfolioDetailsPachamamaArea() {
               </div>
               <div className="col-xl-9">
                 <div className="showcase-details-2-content-right tp_title_anim">
-                    <p className="pb-25">I joined the Awaq Campus Internship project as the main designer during the MVP phase, when the initial UX research had already been completed and a brand manual was in place. I was responsible for the entire UI design and prototyping process, ensuring that the experience was user-friendly, engaging, and aligned with the brand identity. I worked alongside developers, project managers, product owner and stakeholders to bring the platform to life.</p>
+                    <p className="pb-25">In Uruguay, more people are choosing organic food for its health benefits. As demand grows, organic products are easier to find in markets, small shops, and fairs. However, many of these products still go through middlemen or are imported, which raises prices. At the same time, local producers often don’t have a direct way to reach customers or promote what they grow, so they end up selling to wholesalers at lower prices, and many people never discover their products.</p>
                 </div>
               </div>
           </div>
         </div>
-    </div>
+    </div> */}
     {/* Background area */}
 
     {/* Problem area */}
@@ -225,7 +199,7 @@ export default function PortfolioDetailsPachamamaArea() {
               </div>
               <div className="col-xl-9">
                 <div className="showcase-details-2-content-right tp_title_anim">
-                    <p className="pb-25">University students in Latin America do not have an easy-to-use online platform where they can find, book, and manage internship and tourism experiences focused on environmental programs. Also, AWAQ — the ONG behind the project — has limited resources. The income from this platform would help support their work, improve the biological stations, and continue offering these learning opportunities to more students in the future, while also supporting Awaq’s mission to protect biodiversity and promote environmental education throughout the region.</p>
+                    <p className="pb-25">In Uruguay, more people are choosing organic food for its health benefits. As demand grows, organic products are easier to find in markets, small shops, and fairs. However, many of these products still go through middlemen or are imported, which raises prices. At the same time, local producers often don’t have a direct way to reach customers or promote what they grow, so they end up selling to wholesalers at lower prices, and many people never discover their products.</p>
                 </div>
               </div>
           </div>
@@ -248,13 +222,13 @@ export default function PortfolioDetailsPachamamaArea() {
                 <div className="showcase-details-2-section-left">
                     <span className="ab-inner-subtitle mb-25">
                       <Leaf/>
-                      test
+                      Solving the Problem
                     </span>
                 </div>
               </div>
               <div className="col-xl-9">
                 <div className="showcase-details-2-content-right tp_title_anim">
-                    <p className="pb-25">Based on the identified problems, the proposed solution is a comprehensive web platform that enables users to register, explore available opportunities, make reservations, complete secure payments, and manage their bookings through an intuitive, interactive dashboard. The platform will also feature dedicated tools for administrators, allowing them to efficiently manage users and reservations, export data, and access detailed analytics to support operational decision-making.</p>
+                    <p className="pb-25">Build a platform where people can find and buy organic food—grown or made by independent producers in Uruguay—without needing to go through intermediaries. This way, producers can reach more people without paying for advertising, and customers get direct access to local, healthy food.</p>
                 </div>
               </div>
           </div>
@@ -276,45 +250,6 @@ export default function PortfolioDetailsPachamamaArea() {
     </div>
     {/* images thumb */}
     
-
-     {/* hero area start */}
-        {/* <HeroBannerThree /> */}
-    {/* hero area end */}
-
-
-      {/* Problem area */}
-      {/* <div className="showcase-details-2-area pb-50">
-        <div className="container">
-          <div className="row tp-brand-brd-top pt-50">
-              <div className="col-xl-8">
-                <div className="showcase-details-2-section-box">
-                    <h4 className="project-details-1-title tp-char-animation">The MVP</h4>
-                </div>
-              </div>
-          </div>
-          <div className="row">
-              <div className="col-xl-12">
-                <div className="showcase-details-2-section-left">
-                    <span className="ab-inner-subtitle mb-25">
-                      <Leaf/>
-                      Defining the MVP
-                    </span>
-                </div>
-              </div>
-              <div className="col-xl-12">
-                <div className="showcase-details-2-content-right tp_title_anim">
-                    <p className="pb-25">As part of the Awaq Campus Internship project, I collaborated closely with product owner, developers and stakeholders to define the MVP. Key features:</p>
-                    <p className="pb-25">User Registration. Users could easily create an account.</p>
-                      
-                </div>
-                
-              </div>
-          </div>
-        </div>
-    </div> */}
-    {/* Problem area */}
-
-
      {/* MVP area */}
      <div className="pd-visual-content-area pb-70">
           <div className="container">
@@ -349,15 +284,14 @@ export default function PortfolioDetailsPachamamaArea() {
                 </div>
                 <div className="col-xl-12">
                     <div className="pd-visual-right-content">
-                      <p className="tp_title_anim">As part of the Awaq Campus Internship project, I collaborated closely with product owner, developers and stakeholders to define the MVP. Key features included:</p>
+                      <p className="tp_title_anim">Key MVP features:</p>
                       <div className="pd-visual-right-list">
                           <ul className="tp_fade_bottom">
                             <li>USER REGISTRATION</li>
-                            <li>INTERACTIVE RESERVATIONS</li>
-                            <li>PAYMENT INTEGRATION</li>
-                            <li>USER DASHBOARD</li>
-                            <li>CALL SCHEDULING</li>
-                            <li>ADMIN DASHBOARD</li>
+                            <li>PRODUCT SEARCH</li>
+                            <li>POST</li>
+                            <li>PURCHASE</li>
+                            <li>CONNECT</li>
                           </ul>
                       </div>
                     </div>
@@ -368,13 +302,13 @@ export default function PortfolioDetailsPachamamaArea() {
         </div>
       {/* MVP area */}
 
-        {/* HOMEPAGE area */}
+      {/* Solution area */}
     <div className="showcase-details-2-area">
         <div className="container">
           <div className="row tp-brand-brd-top pt-50">
               <div className="col-xl-8">
                 <div className="showcase-details-2-section-box">
-                    <h4 className="project-details-1-title tp-char-animation">Information Architecture</h4>
+                    <h4 className="project-details-1-title tp-char-animation">User Personas</h4>
                 </div>
               </div>
           </div>
@@ -383,13 +317,56 @@ export default function PortfolioDetailsPachamamaArea() {
                 <div className="showcase-details-2-section-left">
                     <span className="ab-inner-subtitle mb-25">
                       <Leaf/>
-                      Designed to Make an Impact
+                      Solving the Problem
                     </span>
                 </div>
               </div>
               <div className="col-xl-9">
                 <div className="showcase-details-2-content-right tp_title_anim">
-                    <p className="pb-25">The AWAQ Campus Internship homepage was a central part of the design process, developed through a collaborative and iterative approach. As the project progressed, the client refined their vision and introduced new priorities. It was designed to clearly share the program’s mission, attract users..</p>
+                    <p className="pb-25">Based on the research, two main user types were identified: people (consumers) who want to buy local organic food and producers (local organic farmers) who want to sell their products directly. While both are important, the main focus was on the consumer persona, due to time limitations and course orientation. This is why the core tasks for consumers, like browsing, searching, and purchasing products, were included as part of the MVP to ensure the app was useful from the very first version.</p>
+                </div>
+              </div>
+          </div>
+        </div>
+    </div>
+    {/* Solution area */}
+
+     {/* images thumb */}
+     <div className="tp-project-details-3-thumb">
+        <div className="container">
+          <div className="row">
+              <div className="col-xl-12">
+                <div className="tp-project-details-3-thumb-box">
+                    <Image className="w-100" src={full_image_users} alt="port-img" style={{height:'auto'}}/>
+                </div>
+              </div>
+          </div>
+        </div>
+    </div>
+    {/* images thumb */}
+    
+        {/* Site Map area */}
+    <div className="showcase-details-2-area">
+        <div className="container">
+          <div className="row tp-brand-brd-top pt-50">
+              <div className="col-xl-8">
+                <div className="showcase-details-2-section-box">
+                    <h4 className="project-details-1-title tp-char-animation">Site Map</h4>
+                </div>
+              </div>
+          </div>
+          <div className="row">
+              <div className="col-xl-3">
+                <div className="showcase-details-2-section-left">
+                    <span className="ab-inner-subtitle mb-25">
+                      <Leaf/>
+                      Information Architecture
+                    </span>
+                </div>
+              </div>
+              <div className="col-xl-9">
+                <div className="showcase-details-2-content-right tp_title_anim">
+                    <p className="pb-25">The app was designed to be simple and easy to use for both shoppers and producers. Each part was based on what users need, like searching, posting, chatting, or buying. Because of the short timeline, I focused on the most important features and avoided adding extras I couldn’t fully develop.</p>
                 </div>
               </div>
           </div>
@@ -402,7 +379,7 @@ export default function PortfolioDetailsPachamamaArea() {
           <div className="row">
               <div className="col-xl-12">
                 <div className="tp-project-details-3-thumb-box">
-                    <Image className="w-100" src={full_image_7} alt="port-img" style={{height:'auto'}}/>
+                    <Image className="w-100" src={site_map} alt="port-img" style={{height:'auto'}}/>
                 </div>
               </div>
           </div>
@@ -445,12 +422,12 @@ export default function PortfolioDetailsPachamamaArea() {
           <div className="row">
               <div className="col-xl-6">
                 <div className="tp-project-details-3-thumb-box mb-30">
-                    <Image className="w-100" src={full_image_4} alt="port-img" style={{height:'auto'}}/>
+                    <Image className="w-100" src={wireframes1} alt="port-img" style={{height:'auto'}}/>
                 </div>
               </div>
               <div className="col-xl-6">
                 <div className="tp-project-details-3-thumb-box mb-30">
-                  <Image className="w-100" src={full_image_5} alt="port-img" style={{height:'auto'}}/>
+                  <Image className="w-100" src={wireframes2} alt="port-img" style={{height:'auto'}}/>
                 </div>
               </div>
           </div>
@@ -479,8 +456,7 @@ export default function PortfolioDetailsPachamamaArea() {
               </div>
               <div className="col-xl-9">
                 <div className="showcase-details-2-content-right tp_title_anim">
-                    <p className="pb-25">I created high fidelity mockups in Figma, collaborating closely with the Development and Product team to define and clarify any interactions that were not fully detailed in the high-fidelity mockups. I also performed reviews for each front-end implementation, making sure the final output matched the intended design and met usability standards before release.</p>
-                    <p className="pb-25">The website was built with scalability in mind. Every element was designed to be dynamically managed through the database, which required close coordination with the development and product teams to define the necessary components. Since the content would later be populated dynamically from the backend, due to the client’s request, many text elements were implemented as placeholders.</p>
+                    <p className="pb-25">The high-fidelity prototype of Pachamama shows how the final app will look and work. It includes key features like browsing products, talking to producers, and placing orders. The goal is to make it easy for people to buy healthy, local food directly from those who grow it.</p>
                 </div>
               </div>
           </div>
@@ -491,59 +467,10 @@ export default function PortfolioDetailsPachamamaArea() {
      
 
          {/* service area */}
-         <ServiceACI />
+         <ServicePachamama />
         {/* service area */}
 
-
-          {/* HOMEPAGE area */}
-    <div className="showcase-details-2-area pb-10">
-        <div className="container">
-          <div className="row">
-              <div className="col-xl-8">
-                <div className="showcase-details-2-section-box">
-                    <h4 className="project-details-1-title tp-char-animation">The Homepage</h4>
-                </div>
-              </div>
-          </div>
-          <div className="row">
-              <div className="col-xl-3">
-                <div className="showcase-details-2-section-left">
-                    <span className="ab-inner-subtitle mb-25">
-                      <Leaf/>
-                      Designed to Make an Impact
-                    </span>
-                </div>
-              </div>
-              <div className="col-xl-9">
-                <div className="showcase-details-2-content-right tp_title_anim">
-                    <p className="pb-25">The AWAQ Campus Internship homepage was a central part of the design process, developed through a collaborative and iterative approach. As the project progressed, the client refined their vision and introduced new priorities. It was designed to clearly share the program’s mission, attract users, and encourage internship reservations. It followed ACI’s branding while using a fresh, modern look. Illustrations from Storyset (Freepik), recommended in the brand guide, helped make the content more engaging. Key sections the client wanted to highlight were given special attention. Clear visuals and layout showed the benefits of joining, with strong calls to action throughout. The design also included Awaq’s new ECOSOC Special Advisory Status to build trust and inspire users to take part.</p>
-                </div>
-              </div>
-          </div>
-        </div>
-    </div>
-    {/* HOMEPAGE area */}
-
-     {/* portfolio area */}
-                            <ProjectSixHomepage style_2={true} />
-      {/* portfolio area */}
-
  
-
-    {/*information architecture thumb */}
-        {/* <div id="xyz" className="tp-project-details-3-thumb mb-120">
-          <div className="container container-1560">
-            
-            <div className="row">
-                <div className="col-xl-12">
-                  <div className="tp-project-details-3-thumb-box">
-                    <Image data-speed="" src={full_image_2} alt="port-img" style={{ height: 'auto' }}/>
-                  </div>
-                </div>
-            </div>
-          </div>
-      </div> */}
-    {/* details thumb */}
 
     {/* details area */}
     <div className="showcase-details-2-area pb-120">
