@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import HomePageFour from "./(homes)/home-4/page";
+import HomePageFour from "./(homes)/home-3/page";
 
 export const metadata: Metadata = {
   title: "Claudia - Portfolio",

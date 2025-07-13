@@ -8,19 +8,20 @@ gsap.registerPlugin(useGSAP, ScrollTrigger, ScrollSmoother, SplitText);
 
 // internal imports
 import Wrapper from "@/layouts/wrapper";
-import HeaderOne from "@/layouts/headers/header-one";
-import HeroBannerOne from "@/components/hero-banner/hero-banner-one-portfolio";
+import HeaderFour from "@/layouts/headers/header-four";
 import HeroBannerFour from "@/components/hero-banner/hero-banner-four";
 import GalleryOne from "@/components/gallery/gallery-one";
-
-import ProjectFive from "@/components/project/project-five-portfoliohome";
+import AboutThree from "@/components/about/about-three";
+import BrandThree from "@/components/brand/brand-three";
+import ProjectFour from "@/components/project/project-four";
+import VideoThree from "@/components/video/video-three";
+import ServiceFour from "@/components/service/service-four";
 import ContactOne from "@/components/contact/contact-one";
 import FooterFour from "@/layouts/footers/footer-four";
 import { textInvert } from "@/utils/text-invert";
 import { fadeAnimation, revelAnimationOne } from "@/utils/title-animation";
 import { projectThreeAnimation } from "@/utils/project-anim";
 import { ctaAnimation } from "@/utils/cta-anim";
-
 
 const HomeFourMain = () => {
   useScrollSmooth();
@@ -46,62 +47,41 @@ const HomeFourMain = () => {
     <Wrapper>
 
       {/* header area start */}
-      <HeaderOne />
+      <HeaderFour />
       {/* header area end */}
 
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
 
-             {/* hero area start */}
-             <HeroBannerOne />
+            {/* hero area start */}
+            <HeroBannerFour />
             {/* hero area end */}
-
-      
-
 
             {/* gallery area start */}
             <GalleryOne />
             {/* gallery area end */}
 
-            <div id="smooth-wrapper">
-                    <div id="smooth-content">
-                      <main>
-                        {/* portfolio hero */}
-                        <div
-                          className="tm-hero-area tm-hero-ptb"
-                          style={{ backgroundImage: "url(/assets/img/inner-project/hero/hero-bg.jpg)" }}
-                        >
-                          <div className="container">
-                            <div className="row">
-                              <div className="col-xl-12">
-                                <div className="tm-hero-content">
-                                  <span className="tm-hero-subtitle">Portfolio</span>
-                                  <h4 className="tm-hero-title tp-char-animation">
-                                   Relevant Projects
-                                  </h4>
-                                </div>
-                                <div className="tm-hero-text">
-                                  <p className="tp_title_anim">
-                                    We’re a diverse team that works as fancies attention to
-                                    details, enjoys beers on Friday nights and aspires to
-                                    design the dent in the universe.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        {/* portfolio hero */}
-            
-                        {/* portfolio area */}
-                        <ProjectFive style_2={true} />
-                        {/* portfolio area */}
-                      </main>
-                    </div>
-                  </div>
+            {/* about area start */}
+            <AboutThree />
+            {/* about area end */}
 
-           
+            {/* brand area start */}
+            <BrandThree />
+            {/* brand area end */}
+
+
+            {/* project area start */}
+            <ProjectFour />
+            {/* project area end */}
+
+            {/* video area start */}
+            <VideoThree />
+            {/* video area end */}
+
+            {/* service area start */}
+            <ServiceFour />
+            {/* service area end */}
 
             {/* contact area start */}
             <ContactOne />
@@ -115,10 +95,7 @@ const HomeFourMain = () => {
         </div>
       </div>
     </Wrapper>
-    
   );
 };
 
 export default HomeFourMain;
-
-
