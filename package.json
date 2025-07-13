@@ -1,11 +1,12 @@
 {
-  "name": "liko-next-js",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "deploy": "next build && echo 'claudiadiazalvarino.com' > out/CNAME && touch out/.nojekyll && gh-pages -d out",
     "lint": "next lint"
   },
   "dependencies": {
@@ -49,6 +50,7 @@
     "@types/three": "^0.164.0",
     "eslint": "^8",
     "eslint-config-next": "14.2.3",
+    "gh-pages": "^6.3.0",
     "typescript": "^5"
   }
 }
