@@ -64,7 +64,7 @@ export default function MobileOffcanvas({openOffcanvas,setOpenOffcanvas}: IProps
 
               <ul>
                 <li>
-                  <a href="tel:+14074317334">+1 (407) 431 7334</a>
+                  <a href="tel:+14074317334">(407) 431-7334</a>
                 </li>
                 <li>
                   <a href="mailto:cdiazalvarino@gmail.com">cdiazalvarino@gmail.com</a>

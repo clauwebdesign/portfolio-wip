@@ -10,17 +10,15 @@ gsap.registerPlugin(useGSAP, ScrollTrigger, ScrollSmoother, SplitText);
 import Wrapper from "@/layouts/wrapper";
 import HeaderOne from "@/layouts/headers/header-one";
 import HeroBannerOne from "@/components/hero-banner/hero-banner-one-portfolio";
-import HeroBannerFour from "@/components/hero-banner/hero-banner-four";
 import GalleryOne from "@/components/gallery/gallery-one";
 
 import ProjectFive from "@/components/project/project-five-portfoliohome";
 import ContactOne from "@/components/contact/contact-one";
-import FooterFour from "@/layouts/footers/footer-four";
 import { textInvert } from "@/utils/text-invert";
 import { fadeAnimation, revelAnimationOne } from "@/utils/title-animation";
 import { projectThreeAnimation } from "@/utils/project-anim";
 import { ctaAnimation } from "@/utils/cta-anim";
-
+import FooterFive from "@/layouts/footers/footer-five";
 
 const HomeFourMain = () => {
   useScrollSmooth();
@@ -56,9 +54,6 @@ const HomeFourMain = () => {
              {/* hero area start */}
              <HeroBannerOne />
             {/* hero area end */}
-
-      
-
 
             {/* gallery area start */}
             <GalleryOne />
@@ -110,7 +105,7 @@ const HomeFourMain = () => {
           </main>
 
           {/* footer area */}
-          <FooterFour />
+          <FooterFive />
           {/* footer area */}
         </div>
       </div>

@@ -16,11 +16,8 @@ export default function FooterFour() {
                   <h4 className="tp-footer-3-title">Website map</h4>
                   <div className="tp-footer-3-menu">
                     <ul>
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">About</a></li>
-                      <li><a href="#">Landing</a></li>
-                      <li><a href="#">Blog</a></li>
-                      <li><a href="#">Contact</a></li>
+                      <li><a href="#">Portfolio</a></li>
+                      <li><a href="#">Work</a></li>
                     </ul>
                   </div>
                 </div>

@@ -22,7 +22,7 @@ export default function ContactOne() {
               <Image src={cta} alt="cta-img" />
             </div>
             <div className="tp-cta-btn-box">
-              <Link className="tp-btn-zikzak p-relative" href="/contact">
+              <Link className="tp-btn-zikzak p-relative" href="https://www.linkedin.com/in/claudia-diaz-alvarino/" target="_blank">
                 <span className="zikzak-content">
                   Get <br /> In Touch
                   <RightArrow clr="#19191A" />

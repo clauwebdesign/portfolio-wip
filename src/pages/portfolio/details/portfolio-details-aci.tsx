@@ -8,11 +8,11 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother, SplitText);
 
 // internal imports
 import Wrapper from "@/layouts/wrapper";
-import HeaderEleven from "@/layouts/headers/header-eleven";
 import PortfolioDetailsAciArea from "@/components/portfolio/details/portfolio-details-aci-area";
-import FooterTwo from "@/layouts/footers/footer-two";
 // animation
 import { charAnimation, titleAnimation } from "@/utils/title-animation";
+import FooterFive from "@/layouts/footers/footer-five";
+import HeaderOne from "@/layouts/headers/header-one";
 
 const PortfolioDetailsAciMain = () => {
   useScrollSmooth();
@@ -28,7 +28,7 @@ const PortfolioDetailsAciMain = () => {
   return (
     <Wrapper>
       {/* header area start */}
-      <HeaderEleven />
+      <HeaderOne />
       {/* header area end */}
 
       <div id="smooth-wrapper">
@@ -40,7 +40,7 @@ const PortfolioDetailsAciMain = () => {
           </main>
 
           {/* footer area */}
-          <FooterTwo topCls="" whiteFooter={true} />
+          <FooterFive />
           {/* footer area */}
         </div>
       </div>
