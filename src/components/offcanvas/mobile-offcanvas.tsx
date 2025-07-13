@@ -1,13 +1,13 @@
 import React from "react";
 import Image from "next/image";
-import { Behance, CloseTwo, Dribble, InstagramTwo, Youtube } from "../svg";
+import { CloseTwo, Linkdin } from "../svg";
 
 // images
 import logo from "@/assets/img/logo/logo.png";
-import gallery_1 from "@/assets/img/menu/offcanvas/offcanvas-1.jpg";
-import gallery_2 from "@/assets/img/menu/offcanvas/offcanvas-2.jpg";
-import gallery_3 from "@/assets/img/menu/offcanvas/offcanvas-3.jpg";
-import gallery_4 from "@/assets/img/menu/offcanvas/offcanvas-4.jpg";
+import gallery_1 from "@/assets/img/portfolio/home/aci.jpg";
+import gallery_2 from "@/assets/img/portfolio/home/pachamama.jpg";
+import gallery_3 from "@/assets/img/portfolio/home/elmiron.jpg";
+import gallery_4 from "@/assets/img/portfolio/home/bearing.jpg";
 import MobileMenus from "./mobile-menus";
 
 const gallery_images = [gallery_1, gallery_2, gallery_3, gallery_4];
@@ -41,7 +41,7 @@ export default function MobileOffcanvas({openOffcanvas,setOpenOffcanvas}: IProps
           <div className="tp-offcanvas-main">
             <div className="tp-offcanvas-content">
               <h3 className="tp-offcanvas-title">Hello There!</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+              {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p> */}
             </div>
             <div className="tp-main-menu-mobile d-xl-none">
               <MobileMenus/>
@@ -52,7 +52,7 @@ export default function MobileOffcanvas({openOffcanvas,setOpenOffcanvas}: IProps
                   <div className="col-md-3 col-3" key={i}>
                     <div className="tp-offcanvas-gallery-img fix">
                       <a href="#">
-                        <Image src={item} alt="gallery-img" />
+                        <Image src={item} alt="gallery-img" width={80} height={80}/>
                       </a>
                     </div>
                   </div>
@@ -64,30 +64,21 @@ export default function MobileOffcanvas({openOffcanvas,setOpenOffcanvas}: IProps
 
               <ul>
                 <li>
-                  <a href="tel:1245654">+ 4 20 7700 1007</a>
+                  <a href="tel:+14074317334">+1 (407) 431 7334</a>
                 </li>
                 <li>
-                  <a href="mailto:hello@diego.com">hello@diego.com</a>
+                  <a href="mailto:cdiazalvarino@gmail.com">cdiazalvarino@gmail.com</a>
                 </li>
                 <li>
-                  <a href="#">Avenue de Roma 158b, Lisboa</a>
+                  <a href="#">Miami, FL</a>
                 </li>
               </ul>
             </div>
             <div className="tp-offcanvas-social">
-              <h3 className="tp-offcanvas-title sm">Follow Us</h3>
+              <h3 className="tp-offcanvas-title sm">Follow Me</h3>
               <ul>
                 <li>
-                  <a href="#"><InstagramTwo /></a>
-                </li>
-                <li>
-                  <a href="#"><Dribble /></a>
-                </li>
-                <li>
-                  <a href="#"> <Behance /></a>
-                </li>
-                <li>
-                  <a href="#"><Youtube /></a>
+                  <a href="https://www.linkedin.com/in/claudia-diaz-alvarino/" target="_blank"><Linkdin /></a>
                 </li>
               </ul>
             </div>
