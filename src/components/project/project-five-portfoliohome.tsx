@@ -96,7 +96,7 @@ export default function ProjectFive({ style_2 = false }: IProps) {
             </div>
           ))}
         </div>
-        <div className="row">
+        {/* <div className="row">
           <div className="col-xl-12">
             <div className="tp-projct-5-2-btn-box d-flex justify-content-center">
               <div className="tp-hover-btn-wrapper">
@@ -117,7 +117,7 @@ export default function ProjectFive({ style_2 = false }: IProps) {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
