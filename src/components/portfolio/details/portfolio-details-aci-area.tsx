@@ -248,7 +248,7 @@ export default function PortfolioDetailsAciArea() {
               <div className="showcase-details-2-section-left">
                 <span className="ab-inner-subtitle mb-25">
                   <Leaf />
-                  test
+                  Solving the Problem
                 </span>
               </div>
             </div>
