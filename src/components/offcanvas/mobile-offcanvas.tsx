@@ -41,7 +41,8 @@ export default function MobileOffcanvas({openOffcanvas,setOpenOffcanvas}: IProps
           <div className="tp-offcanvas-main">
             <div className="tp-offcanvas-content">
               <h3 className="tp-offcanvas-title">Hello There!</h3>
-              {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p> */}
+              <p>Here you’ll find a selection of my UX/UI work, focused on user-centered design, creativity, and problem-solving.
+              Feel free to explore and learn more about each project!</p>
             </div>
             <div className="tp-main-menu-mobile d-xl-none">
               <MobileMenus/>
@@ -60,12 +61,12 @@ export default function MobileOffcanvas({openOffcanvas,setOpenOffcanvas}: IProps
               </div>
             </div>
             <div className="tp-offcanvas-contact">
-              <h3 className="tp-offcanvas-title sm">Information</h3>
+              <h3 className="tp-offcanvas-title sm">My Info</h3>
 
               <ul>
-                <li>
+                {/* <li>
                   <a href="tel:+14074317334">(407) 431-7334</a>
-                </li>
+                </li> */}
                 <li>
                   <a href="mailto:cdiazalvarino@gmail.com">cdiazalvarino@gmail.com</a>
                 </li>

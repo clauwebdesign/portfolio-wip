@@ -62,7 +62,7 @@ const HeroBannerOne = () => {
             <div className="tp-hero-content tp_fade_bottom">
               <p>
                 <span></span>
-                I am basede in Us and work at the intersection of design and technology. When I’m not designing, you’ll find me exploring new ways to learn, grow, and connect with others.
+                I am based in US and work at the intersection of design and technology. When I’m not designing, you’ll find me exploring new ways to learn, grow, and connect with others.
               </p>
             </div>
           </div>
