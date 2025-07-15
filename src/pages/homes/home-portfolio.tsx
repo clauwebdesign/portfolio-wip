@@ -76,13 +76,13 @@ const HomeFourMain = () => {
                                    Relevant Projects
                                   </h4>
                                 </div>
-                                <div className="tm-hero-text">
+{/*                                 <div className="tm-hero-text">
                                   <p className="tp_title_anim">
                                     We’re a diverse team that works as fancies attention to
                                     details, enjoys beers on Friday nights and aspires to
                                     design the dent in the universe.
                                   </p>
-                                </div>
+                                </div> */}
                               </div>
                             </div>
                           </div>
